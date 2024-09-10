@@ -1,0 +1,39 @@
+.App {
+  width: 100dvw;
+  height: 100dvh;
+  background-color: #edf2ff;
+  
+}
+
+.home-section{
+  width: 70%;
+  height: 70%;
+  background-color: #bac8ff;
+  gap: 2rem;
+}
+
+form {
+  gap: 1rem;
+  
+}
+
+form * {
+  border-radius: 1rem;
+}
+
+button[type='submit'] {
+  background-color: #4c6ef5;
+  box-shadow: 2px 2px 9px black;
+  /* font-weight: 600; */
+}
+
+.user-name {
+  color: #364fc7;
+  font-size: larger;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+}
+
