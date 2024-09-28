@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+input, button {
+    outline: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    /* height: 2rem; */
+    font-size: large;
+
+}
+

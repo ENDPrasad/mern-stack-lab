@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-section {
+  background-color: #d3d3d3;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #22b8cf; */
+  min-height: 10rem;
+  margin-top: 4rem;
+  width: 80dvw;
+  border: 1px solid rgb(184, 181, 181);
+  position: relative;
+}
+.quote-now {
+  /* background-color: aquamarine; */
+  max-width: 60%;
+  text-wrap: wrap;
+}
+
+
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+.author-now {
+  align-self: flex-end;
+  margin-right: 3rem;
+  z-index: 2;
+}
+
+
+
+
+.left-quote, .right-quote {
+  position: absolute;
+  font-size: 15rem;
+  font-family: "Space Grotesk", sans-serif;
+  color: rgba(0, 0, 0, 0.212);
+}
+
+.left-quote {
+  left: 2px;
+  transform: scaleX(-1)
+}
+
+.right-quote {
+  top: 50px;
+  right: 1px;
+}
+
+.btn-section {
+  margin-top: 2rem;
+}
+
+
