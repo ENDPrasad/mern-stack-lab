@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Prasad",
+        "id": "123",
+        "gender": "male"
+    },
+    {
+        "name": "Mehu",
+        "id": "234",
+        "gender": "male"
+    },
+    {
+        "name": "Sarath",
+        "id": "345",
+        "gender": "male"
+    },
+    {
+        "name": "Pren",
+        "id": "456",
+        "gender": "male"
+    },
+    {
+        "name": "Hemanth",
+        "id": "567",
+        "gender": "male"
+    },
+    {
+        "name": "Pranai",
+        "id": "678",
+        "gender": "male"
+    }
+]
