@@ -1,6 +1,8 @@
 const express = require('express')
 const cors = require('cors')
 const connectDB = require('./db/db.js')
+const bodyParser = require('body-parser')
+const { body } = require('express-validator')
 
 // Creating the express app
 const app = express()
@@ -13,6 +15,9 @@ connectDB()
 // accepting cors
 app.use(cors())
 
+// add body parser
+// app.use(bodyParser.urlencoded({extended: true}))
+app.use(express.json())
 
 app.use('/users', require('./routes/user'))
 
